@@ -197,7 +197,7 @@ export default function Header({
         {/* Center: Logo */}
         <div className="flex-1 flex justify-center">
           <div className="flex items-center gap-2">
-            <AppLogo className="h-8 max-w-32" />
+            <AppLogo className="max-h-12 w-auto" />
           </div>
         </div>
 
@@ -224,7 +224,7 @@ export default function Header({
           {/* App Logo - only show when not collapsed */}
           {!isCollapsed && (
             <div className="flex-shrink-0 flex items-center gap-2">
-              <AppLogo className="h-8 max-w-32" />
+              <AppLogo className="max-h-12 w-auto" />
             </div>
           )}
 

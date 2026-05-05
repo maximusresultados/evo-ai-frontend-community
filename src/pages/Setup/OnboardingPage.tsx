@@ -280,7 +280,7 @@ export default function OnboardingPage() {
         >
           {/* Logo */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1.75rem' }}>
-            <AppLogo alt="ChatMax" style={{ height: '30px' }} forceTheme="dark" />
+            <AppLogo alt="ChatMax" style={{ maxHeight: '30px', width: 'auto' }} forceTheme="dark" />
           </div>
 
           {/* Title */}

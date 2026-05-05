@@ -19,7 +19,7 @@ const LoadingScreen = ({ fullScreen = false, showLogo = false, className }: Load
       )}
     >
       {showLogo && (
-        <AppLogo className="w-1/4 mb-4" />
+        <AppLogo className="max-h-16 w-auto mb-4" />
       )}
       <Loader2
         className={cn(
